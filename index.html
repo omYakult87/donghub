@@ -51,7 +51,7 @@ h1{margin:0} h2{margin-top:0;color:#38bdf8}
 
 <header>
 <h1>Yakult Shader XV1</h1>
-<p>Shader Developer & VPS Seller</p>
+<p>Shader Developer & Server Seller</p>
 </header>
 
 <main>
@@ -61,7 +61,7 @@ h1{margin:0} h2{margin-top:0;color:#38bdf8}
 <div class="card" id="profileCard">
 <div class="content">
 <h2>Profile</h2>
-<p>Developer shader Minecraft & seller VPS.</p>
+<p>Developer shader Minecraft & seller server.</p>
 </div>
 <div class="actions">
 <button class="btn" id="profileBtn">Profile</button>
@@ -104,44 +104,39 @@ h1{margin:0} h2{margin-top:0;color:#38bdf8}
 </div>
 </div>
 
-<!-- VPS -->
+<!-- SERVER -->
 <div class="card-wrapper">
-<div class="card" id="vpsCard">
+<div class="card" id="serverCard">
 <div class="content">
-<h2>VPS</h2>
+<h2>Server</h2>
 <p>Klik tombol untuk lihat paket</p>
 
-<div id="vpsList" style="display:none;margin-top:15px">
-<h3>• 15k</h3>
+<div id="serverList" style="display:none;margin-top:15px">
+<h3>• 15k - Minecraft BDS</h3>
 <ul>
-<li>Core 8 AMD EPYC 7001</li>
-<li>16 GB RAM</li>
-<li>Privat server</li>
-<li>Stabil anti lemot</li>
-<li>Garansi 15 hari</li>
-<li>Node JS terbaru</li>
-<li>Support Minecraft server / bot</li>
-<li>Universal egg / Docker</li>
-<li>Setup mudah</li>
+<li>Support Bedrock addons / behavior packs</li>
+<li>Stabil & anti lag</li>
+<li>Backup harian</li>
+<li>Low-end friendly</li>
+<li>Setup mudah & siap pakai</li>
+<li>Support 24/7</li>
 </ul>
 
-<h3>• 20k</h3>
+<h3>• 25k - Paper Java/Bedrock</h3>
 <ul>
-<li>Core 10 Intel Xeon</li>
-<li>32 GB RAM</li>
-<li>Privat server</li>
-<li>Stabil anti lemot</li>
-<li>Universal egg</li>
-<li>Garansi 15 hari</li>
-<li>Support Minecraft server / bot</li>
-<li>Node JS terbaru</li>
-<li>Setup mudah</li>
+<li>Support Paper / Spigot plugins lengkap</li>
+<li>Multi-version support</li>
+<li>High-performance server</li>
+<li>Backup otomatis</li>
+<li>Plugin & mod support lengkap</li>
+<li>Setup cepat</li>
+<li>Support Minecraft Java & Bedrock</li>
 </ul>
 </div>
 </div>
 
 <div class="actions">
-<button class="btn" id="vpsBtn">Lihat VPS</button>
+<button class="btn" id="serverBtn">Lihat Server</button>
 </div>
 </div>
 </div>
@@ -178,12 +173,12 @@ h1{margin:0} h2{margin-top:0;color:#38bdf8}
 <script>
 // === FILE & IMAGE PATH ===
 const files = {
-  shaderXV1: "assets/file/shader-xv1.zip",
+  shaderXV1: "asset/file/shader-xv1.zip",
   shaderXV2: "", 
-  avatar: "assets/img/avatar.png",
-  shader1: "assets/img/shader1.jpg",
-  shader2: "assets/img/shader2.jpg",
-  shader3: "assets/img/shader3.jpg"
+  avatar: "asset/IMG/avatar.png",
+  shader1: "asset/IMG/shader1.jpg",
+  shader2: "asset/IMG/shader2.jpg",
+  shader3: "asset/IMG/shader3.jpg"
 };
 
 // === CONTACT ===
@@ -213,11 +208,11 @@ shaderSlide1.style.display="none";
 shaderSlide2.style.display="block";
 }
 
-// VPS
-vpsBtn.onclick=()=>{
-vpsCard.classList.add("active");
-vpsList.style.display="block";
-vpsBtn.style.display="none";
+// SERVER
+serverBtn.onclick=()=>{
+serverCard.classList.add("active");
+serverList.style.display="block";
+serverBtn.style.display="none";
 }
 
 // POPUP PREMIUM
@@ -237,4 +232,4 @@ document.getElementById("contactBtn").href = "https://wa.me/"+contacts.wa;
 </script>
 
 </body>
-</html>
+  </html>
